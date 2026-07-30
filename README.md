@@ -2,7 +2,7 @@ Asad Kassamali
 
 projects
 
-audio-search — Speaker-attributed search and Q&A over conversational audio. faster-whisper → pyannote diarization → hybrid retrieval → grounded answers with timestamp citations, orchestrated in Dagster.
+audio-search — Speaker-attributed search and Q&A over conversational audio: faster-whisper → pyannote diarization → hybrid retrieval → grounded answers with timestamp citations, orchestrated in Dagster. Companion experiments asked whether audio adds speech-act signal beyond text: prosody failed a shuffled-prosody placebo, and an initially significant WavLM probe (p = 0.038) collapsed to null (p = 0.505) once a cross-case speaker audit exposed identity leakage.
 
 coding-agent-evals — Do 3B–7B code models entrench on their first solution strategy? Kaplan-Meier survival analysis over 910 approach decisions
 
@@ -16,4 +16,4 @@ Prop99-SDID — Synthetic Control vs. Synthetic DiD with a full placebo and robu
 
 Also here: Prop 47 synthetic control (near-null, reported as such) · M5 forecasting · reciprocal ranking · RL for TFT (paused)
 
-Currently: prosodic register classification for audio-search — whether how something is said adds signal beyond what is said. In design.
+Currently: writing up the audio-search experiments (leakage audit, label perturbation, prosody placebo) · next: deep RL
